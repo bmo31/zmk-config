@@ -18,6 +18,8 @@
         compatible = "zmk,keymap";
 
         default_layer {
+            // base name
+            display-name = "Base";
             // -----------------------------------------------------------------------------------------
             // |  TAB |  Q  |  W  |  E  |  R  |  T  |   |  Y  |  U   |  I  |  O  |  P  | BSPC |
             // | CTRL |  A  |  S  |  D  |  F  |  G  |   |  H  |  J   |  K  |  L  |  ;  |  '   |
@@ -33,6 +35,8 @@
         };
 
         lower_layer {
+            // lower name
+            display-name = "Lower";
             // -----------------------------------------------------------------------------------------
             // |  TAB |  1  |  2  |  3  |  4  |  5  |   |  6  |  7  |  8  |  9  |  0  | BSPC |
             // | BTCLR| BT1 | BT2 | BT3 | BT4 | BT5 |   | LFT | DWN |  UP | RGT |     |      |
@@ -48,6 +52,8 @@
         };
 
         raise_layer {
+            // raise name
+            display-name = "Raise";
             // -----------------------------------------------------------------------------------------
             // |  TAB |  !  |  @  |  #  |  $  |  %  |   |  ^  |  &  |  *  |  (  |  )  | BSPC |
             // | CTRL |     |     |     |     |     |   |  -  |  =  |  [  |  ]  |  \  |  `   |
@@ -63,6 +69,8 @@
         };
 
         Nav_layer {
+            // Nav name
+            display-name = "Nav";
             bindings = <
 &trans      &trans  &trans          &kp UP_ARROW     &trans           &trans               &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &trans  &trans  &trans
 &kp K_MUTE  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW   &kp RIGHT_ARROW  &kp C_VOLUME_UP      &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &trans  &trans  &trans
